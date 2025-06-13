@@ -75,7 +75,7 @@ dependencies {
     implementation(libs.flyway.database.postgresql)
 
     // Caching Dependencies
-    implementation(libs.kreds)
+    implementation(libs.kreds)                                 // redis client library
 
     // Cron Utility Dependencies
     implementation(libs.cron.utils)
